@@ -1,0 +1,16 @@
+<b-field>
+  <b-input
+      v-model='newItem'
+      expanded
+      @keyup.native.enter='addItem'
+  />
+  <p class='control'>
+    <button
+        class='button is-primary'
+        @click='addItem'
+        :disabled='disableAddItem'
+    >
+      Add
+    </button>
+  </p>
+</b-field>

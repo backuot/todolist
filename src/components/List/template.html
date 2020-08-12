@@ -1,0 +1,18 @@
+<div class='container is-fluid'>
+  <div class='section'>
+    <div class='checklist-box'>
+      <h1 class='checklist-title'>{{title}}</h1>
+      <Input @addItem='addItem($event)' />
+      <hr v-show='items.length > 0'/>
+      <Item
+        v-for='item in items'
+        @deleteItem='deleteItem($event)'
+        @onChange='updateItem($event)'
+        :key='item.key'
+        :title='item.title'
+        :todoKey='item.key'
+        :completed='item.completed'
+      />
+    </div>
+  </div>
+</div>
