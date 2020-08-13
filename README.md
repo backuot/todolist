@@ -1,9 +1,10 @@
-# Todo list
+This starter kit contains Todo list with use TypeScript/Vue.js.
 
-## Setup and run
+## Getting Started
 ```
-npm install
+git clone https://github.com/backuot/todolist.git
+cd todolist
+npm install      # install dependences
+npm run serve    # run server
 ```
-```
-npm run serve
-```
+For see application on GitHub Pages [click here](https://backuot.github.io/).

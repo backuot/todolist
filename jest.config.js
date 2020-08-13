@@ -37,4 +37,4 @@ module.exports = {
   setupFiles: [
       '<rootDir>tests/unit/testSetup.ts'
     ]
-}
+};
