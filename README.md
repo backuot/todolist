@@ -7,4 +7,4 @@ cd todolist
 npm install      # install dependences
 npm run serve    # run server
 ```
-For see application on GitHub Pages [click here](https://backuot.github.io/).
+For see application on GitHub Pages [click here](https://backuot.github.io/todolist/index.html).
